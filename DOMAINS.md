@@ -80,10 +80,15 @@ names that collide in meaning across packs (`nutrition` in `fitness` vs
 ## Editing an existing pack
 
 Edit the JSON, then re-run `python savebrain.py index`. New categories create
-their folders on the next ingest. Notes already written stay where they are —
-if you want them re-filed, delete `vault/.processed.json` and re-ingest (the
-inbox is kept, so nothing needs re-collecting, as long as the media links have
-not expired).
+their folders on the next ingest. Notes already written stay where they are — to
+re-file them against the new folders:
+
+```bash
+python savebrain.py ingest --reset
+```
+
+That forgets what has been processed and runs the whole inbox again. The inbox is
+kept, so nothing needs re-collecting, as long as the media links have not expired.
 
 ## Contributing a pack
 

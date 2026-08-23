@@ -98,7 +98,14 @@ first. Otherwise the note is still written, just without a transcript.
 **Everything lands in `uncategorized`**
 Your pack does not describe what you actually save. Edit
 `domains/<id>.json` — add the folders you want, sharpen the `relevant` lines.
-Then delete `vault/.processed.json` and re-ingest to re-file the same inbox.
+Then re-file the same inbox against the new folders:
+
+```bash
+python savebrain.py ingest --reset
+```
+
+`--reset` forgets what has already been processed; the inbox itself is untouched,
+so nothing needs collecting again (as long as the media links have not expired).
 
 **Posts are marked irrelevant that you wanted kept**
 Loosen `relevant` in your pack, and check `not_relevant` is not too broad. The

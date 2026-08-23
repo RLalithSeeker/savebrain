@@ -22,6 +22,12 @@ Open it in Obsidian, Logseq, VS Code, or just a file browser. No app, no lock-in
 no account. Your posts never leave your machine except for the model calls that
 read them.
 
+> **Not going to read all this?** Hand the repo to Claude Code, Cursor, Copilot or
+> whatever you use, and tell it: *"read AGENTS.md and set this up for me"*.
+> [AGENTS.md](AGENTS.md) is written for exactly that — preconditions, install,
+> the one question it should ask you, how to verify it worked, and the full
+> failure table. Setup takes it about five minutes.
+
 ---
 
 ## What a note looks like
@@ -59,12 +65,16 @@ media: carousel
 Plus, every run: an updated `INDEX.md`, a compact index for AI tools, and a
 paste-ready weekly digest you can hand to any chat model.
 
+Real output from a run is in [examples/](examples/) — one note and one digest.
+
 ---
 
 ## Install
 
-Needs **Python 3.9+** and a Chromium browser (Chrome, Brave, Edge) logged into
-Instagram. Nothing else. No torch, no CUDA, no Docker.
+Needs **Python 3.9+** and a Chromium browser (Chrome, Brave, Edge, Arc, Opera)
+logged into Instagram. Firefox and Safari cannot run the collector — it is a
+Manifest V3 extension. Nothing else: no torch, no CUDA, no Docker, no build tools.
+Works on Windows, macOS and Linux.
 
 ```bash
 git clone https://github.com/RLalithSeeker/savebrain.git
@@ -109,6 +119,11 @@ Want it hands-off? A weekly scheduled run:
 powershell -ExecutionPolicy Bypass -File scripts\schedule_windows.ps1   # Windows
 bash scripts/run_once.sh                                               # macOS/Linux (put it in cron)
 ```
+
+Both need `"instagram_username": "your-handle"` in `config.json` — that is how they
+know which Saved page to open. The only thing that can stop a scheduled run is
+your browser being logged out; the log in `vault/_logs/` says so plainly when it
+happens.
 
 ---
 
@@ -176,7 +191,7 @@ It is you scrolling your own saves, with the results written down.
 | `setup` | interactive first run; `--domains a,b --key gsk_... --yes` for unattended |
 | `doctor` | checks config, key, live models, packages, port, vault, extension |
 | `bridge` | the local receiver; `--auto-ingest` to process automatically when a run ends |
-| `ingest` | processes the inbox into notes; `--no-transcribe`, `--max N`, `--clear-inbox` |
+| `ingest` | processes the inbox into notes; `--no-transcribe`, `--max N`, `--clear-inbox`, `--reset` |
 | `domains` | lists installed packs, marks the active ones |
 | `new-domain "subject"` | writes a new pack for any subject |
 | `index` | rebuilds `INDEX.md` and the compact index |
@@ -198,7 +213,12 @@ core/                  config, domains, llm, media, links, notes, pipeline, brid
 domains/               one JSON per subject -- edit, add, or generate more
 extension/             the browser collector (load unpacked)
 scripts/               scheduled/unattended runs, Windows + Unix
+examples/              a real note and a real digest, so you know what you are getting
 vault/                 your notes (created at setup, never committed)
+
+AGENTS.md              setup guide written for an AI coding agent
+DOMAINS.md             the domain-pack schema, and how to write a good one
+TROUBLESHOOTING.md     symptom -> cause -> fix, for every failure we have hit
 ```
 
 MIT licensed. Built for a friend who kept saving things and never looking at them again.

@@ -182,7 +182,7 @@ Ingest the same day as the collection, or slides and audio will 403.
 | slide/audio download 403 | media links expired | re-collect, ingest same day |
 | `HTTP 429` mid-run | free-tier rate limit | it stops cleanly and keeps the queue; re-run later, or set a fallback endpoint |
 | a model id 404s | provider retired it | `doctor` auto-substitutes a live one; re-run `setup` to pin it |
-| notes land in `uncategorized` | the pack does not match what they save | edit `domains/<id>.json` categories, re-ingest with `--reset` semantics (delete `vault/.processed.json`) |
+| notes land in `uncategorized` | the pack does not match what they save | edit the categories in `domains/<id>.json`, then `python savebrain.py ingest --reset` |
 
 ---
 
