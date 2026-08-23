@@ -1,0 +1,53 @@
+{
+  "id": "finance",
+  "label": "Personal Finance & Investing",
+  "emoji": "💰",
+  "categories": {
+    "budgeting": "cash-flow systems, saving rates, expense control",
+    "investing": "index funds, stocks, allocation, portfolio construction",
+    "tax_legal": "tax treatment, deductions, filings, structures",
+    "debt_credit": "loans, credit scores, repayment strategy",
+    "income": "raises, side income, freelancing rates, negotiation",
+    "tools_apps": "brokers, trackers, banks, calculators",
+    "insurance_risk": "health, term, emergency funds, downside protection",
+    "market_notes": "macro takes, rate moves, market commentary"
+  },
+  "bucket_categories": [
+    "tools_apps",
+    "market_notes"
+  ],
+  "relevant": [
+    "budgeting and saving systems",
+    "investing mechanics and allocation",
+    "taxes, filings and legal structure",
+    "debt payoff and credit",
+    "earning more: negotiation, freelancing, side income",
+    "financial tools, brokers and trackers",
+    "insurance and risk management"
+  ],
+  "not_relevant": [
+    "get-rich-quick and signal groups",
+    "unexplained stock picks",
+    "crypto hype with no mechanism",
+    "lifestyle flexing",
+    "content that is only an ad"
+  ],
+  "entity_label": "funds, brokers, apps, tax codes, institutions and people named",
+  "artifact_examples": "a complete allocation table, a step-by-step tax filing checklist, a payoff plan",
+  "snippet_label": "exact percentages, rates, thresholds, account types and limits",
+  "tag_examples": [
+    "index-fund-basics",
+    "emergency-fund-sizing",
+    "tax-loss-harvesting",
+    "salary-negotiation",
+    "credit-utilization",
+    "sip-vs-lumpsum",
+    "expense-ratios"
+  ],
+  "cleanup_hints": [
+    "\"E T F\" -> \"ETF\"",
+    "\"S I P\" -> \"SIP\"",
+    "\"401 k\" -> \"401(k)\"",
+    "\"a p r\" -> \"APR\""
+  ]
+}

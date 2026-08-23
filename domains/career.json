@@ -1,0 +1,51 @@
+{
+  "id": "career",
+  "label": "Career & Job Search",
+  "emoji": "💼",
+  "categories": {
+    "resume_portfolio": "CV, portfolio and profile improvements",
+    "interviews": "questions, formats, preparation, take-homes",
+    "job_search": "sourcing roles, applications, referrals, recruiters",
+    "negotiation": "offers, salary bands, counteroffers, benefits",
+    "skills": "what to learn next and how it maps to roles",
+    "workplace": "performance, managing up, promotion, politics",
+    "freelance_consulting": "clients, rates, contracts, positioning",
+    "career_change": "switching field, gaps, relocation, visas"
+  },
+  "bucket_categories": [
+    "skills"
+  ],
+  "relevant": [
+    "CV, portfolio and profile craft",
+    "interview preparation and formats",
+    "job search, referrals and recruiters",
+    "salary negotiation and offers",
+    "skills to learn and how they map to roles",
+    "workplace performance and promotion",
+    "freelance rates, contracts and clients",
+    "career changes, gaps and relocation"
+  ],
+  "not_relevant": [
+    "motivational career quotes",
+    "recruiter ads with no method",
+    "salary flexing with no context",
+    "generic LinkedIn engagement bait"
+  ],
+  "entity_label": "companies, roles, certifications, platforms and recruiters named",
+  "artifact_examples": "a full CV bullet rewrite, a complete negotiation script, an outreach template",
+  "snippet_label": "exact phrasing for bullets, scripts, email lines and salary numbers",
+  "tag_examples": [
+    "star-method",
+    "referral-outreach",
+    "salary-bands",
+    "take-home-tests",
+    "portfolio-case-studies",
+    "notice-period",
+    "career-switch-story"
+  ],
+  "cleanup_hints": [
+    "\"C V\" -> \"CV\"",
+    "\"linked in\" -> \"LinkedIn\"",
+    "\"S T A R method\" -> \"STAR method\""
+  ]
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <style>
+    body { width: 280px; margin: 0; font: 13px/1.4 -apple-system, Segoe UI, sans-serif;
+           background: #111114; color: #e6e6e6; }
+    .pad { padding: 14px; }
+    h1 { font-size: 14px; margin: 0 0 10px; }
+    h1 span { color: #8b5cf6; }
+    label { display: block; margin: 10px 0 4px; color: #9aa; font-size: 11px;
+            text-transform: uppercase; letter-spacing: .04em; }
+    select, input { width: 100%; box-sizing: border-box; background: #1c1c22; color: #e6e6e6;
+            border: 1px solid #333; border-radius: 8px; padding: 7px 8px; font-size: 13px; }
+    .row { display: flex; gap: 8px; }
+    .row > * { flex: 1; }
+    button { width: 100%; margin-top: 12px; padding: 9px; border: 0; border-radius: 8px;
+             font-weight: 600; cursor: pointer; font-size: 13px; }
+    #start { background: #8b5cf6; color: #fff; }
+    #stop { background: #2a2a30; color: #e6e6e6; }
+    .stat { margin-top: 12px; padding: 8px 10px; background: #1c1c22; border-radius: 8px;
+            font-family: monospace; font-size: 12px; }
+    .muted { color: #888; font-size: 11px; margin-top: 8px; }
+    .dot-ok { color: #22c55e; } .dot-bad { color: #ef4444; } .dot-na { color: #888; }
+  </style>
+</head>
+<body>
+  <div class="pad">
+    <h1>SaveBrain <span>Collector</span></h1>
+
+    <label>Speed</label>
+    <select id="speed">
+      <option value="safe">Safe - slowest, gentlest</option>
+      <option value="moderate" selected>Moderate - recommended</option>
+      <option value="brisk">Brisk - faster</option>
+    </select>
+
+    <div class="row">
+      <div>
+        <label>Bridge port</label>
+        <input id="port" type="number" value="8799" />
+      </div>
+      <div>
+        <label>Max posts</label>
+        <input id="max" type="number" value="400" />
+      </div>
+    </div>
+
+    <button id="start">Start collecting</button>
+    <button id="stop">Stop</button>
+
+    <div class="stat" id="stat">idle</div>
+    <div class="muted">
+      Open your <b>Saved</b> page first, then Start.
+      The bridge must be running: <code>python savebrain.py bridge</code>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

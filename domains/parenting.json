@@ -1,0 +1,53 @@
+{
+  "id": "parenting",
+  "label": "Parenting & Family",
+  "emoji": "👶",
+  "categories": {
+    "development": "milestones, stages, what is normal when",
+    "behaviour": "discipline, tantrums, communication scripts",
+    "sleep_feeding": "sleep routines, feeding, weaning",
+    "activities": "play, crafts, outings, screen-free ideas",
+    "school_learning": "school choice, homework, reading, tutoring",
+    "health_safety": "illness, first aid, childproofing, checkups",
+    "gear": "products, seats, prams and what is worth it",
+    "parent_wellbeing": "burnout, division of labour, couple time"
+  },
+  "bucket_categories": [
+    "gear",
+    "activities"
+  ],
+  "relevant": [
+    "child development and milestones",
+    "behaviour strategies and scripts",
+    "sleep, feeding and weaning routines",
+    "play and activity ideas",
+    "school, reading and homework",
+    "health, safety and childproofing",
+    "baby and kid gear with reasoning",
+    "parent wellbeing and workload"
+  ],
+  "not_relevant": [
+    "shaming or fear-based parenting content",
+    "product ads with no reasoning",
+    "cute clips with no takeaway",
+    "unsourced medical claims"
+  ],
+  "entity_label": "products, brands, books, methods, programs and experts named",
+  "artifact_examples": "a full bedtime routine with timings, or a complete phrase-by-phrase script",
+  "snippet_label": "exact phrases to say, timings, portion sizes, temperature and safety numbers",
+  "tag_examples": [
+    "gentle-discipline",
+    "nap-transitions",
+    "picky-eating",
+    "screen-time-limits",
+    "reading-aloud",
+    "sensory-play",
+    "sibling-conflict"
+  ],
+  "cleanup_hints": [
+    "\"blw\" -> \"BLW (baby-led weaning)\"",
+    "\"car seat\" brand capitalization",
+    "\"O T\" -> \"OT (occupational therapy)\""
+  ],
+  "note": "General information saved from social media. Not medical advice."
+}

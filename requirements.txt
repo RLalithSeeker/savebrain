@@ -1,0 +1,13 @@
+# Core dependencies. All three are recommended, none is strictly required:
+# the code falls back gracefully if any is missing (doctor tells you what you lose).
+#
+#   rich          nicer terminal output
+#   python-dotenv .env parsing (a small built-in parser is used if absent)
+#   pillow        downscales slides before OCR, which lowers cost and latency
+#
+# Model calls go over plain stdlib HTTP on purpose -- no SDK, no httpx/pydantic
+# version fights with whatever else is already installed.
+
+rich>=13.0
+python-dotenv>=1.0
+pillow>=10.0

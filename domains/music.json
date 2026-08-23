@@ -1,0 +1,51 @@
+{
+  "id": "music",
+  "label": "Music & Production",
+  "emoji": "🎵",
+  "categories": {
+    "production": "arrangement, sound design, sampling, workflow",
+    "mixing_mastering": "EQ, compression, loudness, reference mixing",
+    "gear_plugins": "hardware, plugins, controllers, interfaces",
+    "theory_practice": "theory, scales, progressions, practice routines",
+    "instrument_technique": "playing technique for a specific instrument",
+    "release_promo": "distribution, playlists, promotion, rights",
+    "artists_tracks": "music and artists worth revisiting",
+    "studio_setup": "acoustics, monitoring, room, signal chain"
+  },
+  "bucket_categories": [
+    "gear_plugins",
+    "artists_tracks"
+  ],
+  "relevant": [
+    "production and sound design technique",
+    "mixing and mastering methods",
+    "gear, plugins and signal chains",
+    "theory, practice routines and technique",
+    "release, distribution and rights",
+    "studio and acoustic setup",
+    "artists and tracks worth revisiting"
+  ],
+  "not_relevant": [
+    "plugin ads with no technique",
+    "trend clips with no takeaway",
+    "pure performance clips with nothing to learn"
+  ],
+  "entity_label": "plugins, DAWs, hardware, artists, labels and tracks named",
+  "artifact_examples": "a full signal chain with settings, or a complete practice routine",
+  "snippet_label": "exact frequencies, ratios, BPM, key, plugin settings",
+  "tag_examples": [
+    "sidechain-compression",
+    "vocal-chain",
+    "sound-design-basics",
+    "mix-referencing",
+    "room-treatment",
+    "playlist-pitching",
+    "modal-interchange"
+  ],
+  "cleanup_hints": [
+    "\"D A W\" -> \"DAW\"",
+    "\"L U F S\" -> \"LUFS\"",
+    "\"ableton\" -> \"Ableton\"",
+    "\"e q\" -> \"EQ\""
+  ]
+}

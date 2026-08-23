@@ -1,0 +1,53 @@
+{
+  "id": "travel",
+  "label": "Travel & Places",
+  "emoji": "✈",
+  "categories": {
+    "destinations": "a specific place worth going, with the why",
+    "itineraries": "day-by-day plans and routes",
+    "stays": "hotels, hostels, homestays worth booking",
+    "food_spots": "restaurants, cafes and markets tied to a city",
+    "logistics": "visas, flights, points, insurance, connectivity",
+    "packing_gear": "luggage, gear and packing systems",
+    "budget_hacks": "cheap flights, off-season timing, local pricing",
+    "outdoors": "hikes, dives, treks and nature routes"
+  },
+  "bucket_categories": [
+    "destinations",
+    "stays",
+    "food_spots"
+  ],
+  "relevant": [
+    "specific places with names and locations",
+    "itineraries and routes",
+    "accommodation worth booking",
+    "visas, flights, points and logistics",
+    "packing and travel gear",
+    "budget and timing tactics",
+    "hikes and outdoor routes"
+  ],
+  "not_relevant": [
+    "scenery with no location named",
+    "drone footage with no information",
+    "generic wanderlust captions",
+    "resort ads with no detail"
+  ],
+  "entity_label": "cities, countries, neighbourhoods, hotels, airlines and operators named",
+  "artifact_examples": "a full day-by-day itinerary, or a complete visa document checklist",
+  "snippet_label": "exact addresses, prices, opening hours, visa fees, flight routes",
+  "tag_examples": [
+    "shoulder-season",
+    "visa-on-arrival",
+    "carry-on-only",
+    "night-trains",
+    "island-hopping",
+    "points-redemption",
+    "solo-safety"
+  ],
+  "cleanup_hints": [
+    "\"air bnb\" -> \"Airbnb\"",
+    "\"schen gen\" -> \"Schengen\"",
+    "\"e sim\" -> \"eSIM\"",
+    "\"hostel world\" -> \"Hostelworld\""
+  ]
+}

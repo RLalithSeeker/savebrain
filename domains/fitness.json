@@ -1,0 +1,54 @@
+{
+  "id": "fitness",
+  "label": "Fitness & Training",
+  "emoji": "🏋",
+  "categories": {
+    "programs": "full training programs, splits and periodization",
+    "exercises": "single-movement technique, cues and variations",
+    "mobility_rehab": "warm-ups, prehab, pain and injury work",
+    "nutrition": "eating for performance, protein, hydration, supplements",
+    "recovery_sleep": "sleep, deloads, soreness, stress management",
+    "gear": "equipment, shoes, apps and trackers worth buying",
+    "running_cardio": "running, cycling, conditioning, zone work",
+    "coaching_science": "studies, myths debunked, coach explanations"
+  },
+  "bucket_categories": [
+    "gear",
+    "exercises"
+  ],
+  "relevant": [
+    "training programs, splits and progression",
+    "exercise technique and cues",
+    "mobility, rehab and injury prevention",
+    "sports nutrition and supplementation",
+    "recovery, sleep and stress load",
+    "gear, apps and trackers",
+    "evidence, studies and myth-busting"
+  ],
+  "not_relevant": [
+    "transformation bragging with no method",
+    "supplement ads with no reasoning",
+    "pure aesthetics or thirst content",
+    "unlabelled AI-generated physique claims",
+    "motivational speeches with no protocol"
+  ],
+  "entity_label": "exercises, coaches, programs, brands, supplements and studies named",
+  "artifact_examples": "a full week of programming with sets, reps and RPE, or a complete meal plan",
+  "snippet_label": "set and rep schemes, tempo notations, macro numbers, exact coaching cues",
+  "tag_examples": [
+    "push-pull-legs",
+    "knee-friendly",
+    "hypertrophy-volume",
+    "zone-2",
+    "shoulder-prehab",
+    "cutting-protocol",
+    "home-gym-minimal",
+    "beginner-progression"
+  ],
+  "cleanup_hints": [
+    "\"R P E\" -> \"RPE\"",
+    "\"one rep max\" -> \"1RM\"",
+    "\"D O M S\" -> \"DOMS\"",
+    "\"iso metric\" -> \"isometric\""
+  ]
+}

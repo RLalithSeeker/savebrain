@@ -1,0 +1,51 @@
+{
+  "id": "style",
+  "label": "Style, Fashion & Grooming",
+  "emoji": "👗",
+  "categories": {
+    "outfits": "complete looks worth copying",
+    "wardrobe_basics": "capsule pieces, staples, what to own",
+    "fit_tailoring": "fit rules, alterations, proportions, sizing",
+    "brands_shops": "labels and stores worth knowing, with price tier",
+    "care_repair": "washing, storing, repairing, making clothes last",
+    "grooming": "hair, skin, fragrance routines",
+    "thrift_secondhand": "vintage, resale and sourcing",
+    "occasion": "weddings, interviews, formalwear, seasonal dressing"
+  },
+  "bucket_categories": [
+    "brands_shops",
+    "outfits"
+  ],
+  "relevant": [
+    "outfit formulas and styling rules",
+    "wardrobe building and capsules",
+    "fit, tailoring and proportion",
+    "brands and shops with price context",
+    "garment care and repair",
+    "hair, skin and fragrance routines",
+    "thrifting and secondhand sourcing"
+  ],
+  "not_relevant": [
+    "hauls with no styling reasoning",
+    "pure product placement",
+    "body-shaming content",
+    "trend clips with no takeaway"
+  ],
+  "entity_label": "brands, stores, fabrics, designers and products named",
+  "artifact_examples": "a full capsule wardrobe list, or a complete step-by-step routine",
+  "snippet_label": "exact measurements, fabric compositions, product names, wash settings",
+  "tag_examples": [
+    "capsule-wardrobe",
+    "smart-casual",
+    "tailoring-rules",
+    "fabric-care",
+    "thrift-sourcing",
+    "fragrance-layering",
+    "monochrome-fits"
+  ],
+  "cleanup_hints": [
+    "\"O C B D\" -> \"OCBD\"",
+    "\"merino wool\" capitalization",
+    "\"dr martens\" -> \"Dr. Martens\""
+  ]
+}

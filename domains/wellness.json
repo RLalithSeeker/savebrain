@@ -1,0 +1,51 @@
+{
+  "id": "wellness",
+  "label": "Health, Sleep & Mind",
+  "emoji": "🧘",
+  "categories": {
+    "sleep": "sleep quality, timing, environment, protocols",
+    "mental_health": "anxiety, mood, therapy tools, coping methods",
+    "habits_systems": "behaviour change, routines, environment design",
+    "nutrition_health": "eating for health markers, deficiencies, hydration",
+    "medical_basics": "screenings, labs, symptoms, when to see someone",
+    "movement_daily": "walking, posture, desk setup, everyday movement",
+    "focus_stress": "attention, burnout, recovery, breathing",
+    "relationships": "communication, boundaries, social health"
+  },
+  "bucket_categories": [],
+  "relevant": [
+    "sleep protocols and environment",
+    "mental health tools and coping methods",
+    "habit formation and behaviour change",
+    "nutrition tied to health markers",
+    "screenings, labs and medical basics",
+    "posture, desk setup and daily movement",
+    "focus, burnout and stress recovery",
+    "communication and boundaries"
+  ],
+  "not_relevant": [
+    "miracle-cure claims",
+    "supplement ads with no evidence",
+    "diagnosis-by-reel content",
+    "shame-based wellness talk",
+    "aesthetic routines with no mechanism"
+  ],
+  "entity_label": "protocols, researchers, apps, tests, supplements and practices named",
+  "artifact_examples": "a complete evening routine with timings, or a full breathing protocol",
+  "snippet_label": "exact timings, dosages, ranges, breath counts, lab reference values",
+  "tag_examples": [
+    "sleep-latency",
+    "cbt-tools",
+    "habit-stacking",
+    "morning-light",
+    "desk-ergonomics",
+    "breathwork-protocols",
+    "boundary-scripts"
+  ],
+  "cleanup_hints": [
+    "\"C B T\" -> \"CBT\"",
+    "\"H R V\" -> \"HRV\"",
+    "\"vitamin d\" -> \"Vitamin D\""
+  ],
+  "note": "General information saved from social media. Not medical advice; the vault flags claims, it does not verify them."
+}

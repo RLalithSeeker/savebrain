@@ -1,0 +1,51 @@
+{
+  "id": "study",
+  "label": "Studying & Learning",
+  "emoji": "📚",
+  "categories": {
+    "methods": "study techniques, spaced repetition, note systems",
+    "exam_prep": "specific exams, question strategy, timelines",
+    "resources": "courses, books, channels and problem sets",
+    "focus_habits": "attention, scheduling, procrastination, environment",
+    "subject_notes": "actual subject explanations worth keeping",
+    "tools_apps": "flashcards, note apps, planners",
+    "research_writing": "papers, citations, academic writing",
+    "language_learning": "language acquisition methods and resources"
+  },
+  "bucket_categories": [
+    "resources",
+    "tools_apps"
+  ],
+  "relevant": [
+    "study methods and memory techniques",
+    "exam strategies and timelines",
+    "courses, books and problem sets",
+    "focus, habits and scheduling",
+    "subject explanations worth keeping",
+    "note-taking and research workflow",
+    "language learning methods"
+  ],
+  "not_relevant": [
+    "aesthetic study-with-me clips with no method",
+    "motivational study content with no technique",
+    "course ads",
+    "grade flexing"
+  ],
+  "entity_label": "courses, books, authors, apps, exams and institutions named",
+  "artifact_examples": "a full revision schedule, a complete note-taking template, a problem walkthrough",
+  "snippet_label": "exact intervals, formulas, mnemonics, exam weightings",
+  "tag_examples": [
+    "spaced-repetition",
+    "active-recall",
+    "zettelkasten",
+    "exam-timeline",
+    "past-paper-strategy",
+    "comprehensible-input",
+    "citation-managers"
+  ],
+  "cleanup_hints": [
+    "\"anki\" -> \"Anki\"",
+    "\"pomo doro\" -> \"Pomodoro\"",
+    "\"S R S\" -> \"SRS\""
+  ]
+}

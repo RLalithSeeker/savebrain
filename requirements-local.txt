@@ -1,0 +1,19 @@
+# OPTIONAL -- only if you want transcription and slide reading to run offline
+# on your own machine instead of through the API.
+#
+# This pulls in torch. It is a large install and the usual place first-time
+# setups go wrong, which is exactly why the default path does not need it.
+#
+# After installing, set both in config.json:
+#     "transcribe": "local",
+#     "ocr": "local"
+#
+# torch must match your machine, so install it FIRST, separately:
+#     CPU only:        pip install torch
+#     NVIDIA (CUDA):   pip install torch --index-url https://download.pytorch.org/whl/cu121
+#
+# Then:
+#     pip install -r requirements-local.txt
+
+faster-whisper>=1.0
+easyocr>=1.7

@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "SaveBrain Collector",
+  "version": "1.0.0",
+  "description": "Collects your own saved Instagram posts inside your own logged-in browser and streams them to the local SaveBrain bridge.",
+  "permissions": ["storage", "scripting", "activeTab"],
+  "host_permissions": [
+    "https://www.instagram.com/*",
+    "http://127.0.0.1/*",
+    "http://localhost/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "SaveBrain Collector"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.instagram.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["interceptor.js"],
+      "matches": ["https://www.instagram.com/*"]
+    }
+  ]
+}

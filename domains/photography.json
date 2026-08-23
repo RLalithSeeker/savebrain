@@ -1,0 +1,53 @@
+{
+  "id": "photography",
+  "label": "Photography & Video",
+  "emoji": "📷",
+  "categories": {
+    "shooting": "settings, light, composition, on-location technique",
+    "editing": "grading, retouching, presets, workflow",
+    "gear": "cameras, lenses, lights, audio, support",
+    "lighting": "setups, modifiers, diagrams",
+    "video_craft": "framing, movement, pacing, storytelling",
+    "business_clients": "pricing, contracts, client work, portfolios",
+    "locations": "places and spots worth shooting",
+    "inspiration": "photographers and work worth revisiting"
+  },
+  "bucket_categories": [
+    "gear",
+    "locations",
+    "inspiration"
+  ],
+  "relevant": [
+    "camera settings and shooting technique",
+    "editing and color workflow",
+    "gear with a reason attached",
+    "lighting setups and diagrams",
+    "video craft and storytelling",
+    "client work, pricing and contracts",
+    "locations and photographers worth remembering"
+  ],
+  "not_relevant": [
+    "gear ads with no reasoning",
+    "pretty results with no method",
+    "preset selling with no technique",
+    "generic filter trends"
+  ],
+  "entity_label": "cameras, lenses, lights, software, photographers and locations named",
+  "artifact_examples": "a full lighting diagram described in words, or a complete edit recipe",
+  "snippet_label": "exact aperture, shutter, ISO, focal length, grade values and LUT names",
+  "tag_examples": [
+    "natural-light-portraits",
+    "flash-sync",
+    "log-grading",
+    "35mm-look",
+    "gimbal-moves",
+    "client-contracts",
+    "golden-hour-planning"
+  ],
+  "cleanup_hints": [
+    "\"I S O\" -> \"ISO\"",
+    "\"f 1.8\" -> \"f/1.8\"",
+    "\"light room\" -> \"Lightroom\"",
+    "\"L U T\" -> \"LUT\""
+  ]
+}

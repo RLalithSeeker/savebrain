@@ -1,0 +1,56 @@
+{
+  "id": "tech",
+  "label": "Software, AI & Dev Tools",
+  "emoji": "🧠",
+  "categories": {
+    "ai_coding": "AI-assisted coding workflows, agents, model usage, prompt engineering for code",
+    "dev_tools": "editors, CLIs, libraries, services and infrastructure worth trying",
+    "repos": "specific open-source projects worth starring",
+    "prompts": "reusable prompts, system prompts and instruction templates",
+    "web_design": "front-end, UI kits, animation and web inspiration",
+    "security_privacy": "security practices, self-hosting, privacy tooling",
+    "career_tech": "interviews, roles, learning paths, portfolios in tech",
+    "ai_news": "model launches, releases, industry shifts"
+  },
+  "bucket_categories": [
+    "repos",
+    "dev_tools",
+    "ai_news"
+  ],
+  "relevant": [
+    "AI, coding, automation, agents",
+    "developer tools, libraries, CLIs, self-hosting",
+    "open-source repos and launches",
+    "prompts, system prompts, workflows",
+    "web/UI design resources and component libraries",
+    "security, privacy, infrastructure",
+    "tech careers, interviews, learning paths"
+  ],
+  "not_relevant": [
+    "pure entertainment or memes",
+    "motivational content with no method",
+    "crypto price hype with no technique",
+    "gaming announcements",
+    "lifestyle vlogs"
+  ],
+  "entity_label": "tools, libraries, repos, models, services and companies named",
+  "artifact_examples": "a complete system prompt, a config file, a command sequence, a code snippet",
+  "snippet_label": "exact CLI commands, install lines, prompt openers, config keys",
+  "tag_examples": [
+    "mcp-servers",
+    "self-hosted-alternatives",
+    "agent-workflows",
+    "ui-component-libraries",
+    "local-llm-setup",
+    "ci-pipelines",
+    "rag-patterns",
+    "cost-optimization"
+  ],
+  "cleanup_hints": [
+    "\"super base\" -> \"Supabase\"",
+    "\"n 8 n\" -> \"n8n\"",
+    "\"next js\" -> \"Next.js\"",
+    "\"g i t hub.com\" -> \"github.com\"",
+    "\"tail wind\" -> \"Tailwind\""
+  ]
+}

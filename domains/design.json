@@ -1,0 +1,50 @@
+{
+  "id": "design",
+  "label": "Design & Visual Craft",
+  "emoji": "🎨",
+  "categories": {
+    "inspiration": "references and work worth revisiting",
+    "typography": "typefaces, pairing, spacing, hierarchy",
+    "color": "palettes, color systems, contrast",
+    "layout_composition": "grids, spacing, hierarchy, whitespace",
+    "ui_ux": "interface patterns, usability, product design",
+    "branding": "identity systems, logos, positioning",
+    "tools_assets": "software, plugins, fonts, mockups, stock",
+    "process_career": "critique, pricing, clients, portfolios"
+  },
+  "bucket_categories": [
+    "inspiration",
+    "tools_assets"
+  ],
+  "relevant": [
+    "design references and case studies",
+    "typography, color and layout craft",
+    "UI/UX patterns and usability",
+    "brand identity systems",
+    "design tools, plugins and asset sources",
+    "process, pricing and client work"
+  ],
+  "not_relevant": [
+    "AI image dumps with no craft point",
+    "portfolio flexing with no reasoning",
+    "pure trend reels",
+    "software ads with no technique"
+  ],
+  "entity_label": "typefaces, tools, studios, designers, plugins and sites named",
+  "artifact_examples": "a complete design-token or spacing scale, a full brand checklist",
+  "snippet_label": "hex codes, type scales, spacing values, font names and weights",
+  "tag_examples": [
+    "type-pairing",
+    "spacing-scale",
+    "editorial-layout",
+    "dark-mode-contrast",
+    "brand-guidelines",
+    "motion-easing",
+    "grid-systems"
+  ],
+  "cleanup_hints": [
+    "\"figma\" -> \"Figma\"",
+    "\"helvetica now\" -> \"Helvetica Now\"",
+    "\"h e x\" codes missing the # prefix"
+  ]
+}

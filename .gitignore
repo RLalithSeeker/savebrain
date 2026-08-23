@@ -1,0 +1,21 @@
+# secrets
+.env
+
+# your machine's answers, not anyone else's
+config.json
+
+# your notes, your inbox, your state -- none of this belongs in a repo
+vault/
+*.jsonl
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# editors / os
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

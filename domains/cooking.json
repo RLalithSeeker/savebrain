@@ -1,0 +1,55 @@
+{
+  "id": "cooking",
+  "label": "Cooking & Food",
+  "emoji": "🍳",
+  "categories": {
+    "recipes": "complete recipes worth cooking again",
+    "technique": "knife work, heat control, doughs, sauces, method explanations",
+    "meal_prep": "batching, freezer strategy, weekly plans, budget cooking",
+    "baking": "bread, pastry, desserts and their ratios",
+    "ingredients": "single-ingredient deep dives, sourcing, substitutions",
+    "equipment": "pans, knives, appliances and what is actually worth it",
+    "restaurants_places": "places to eat, saved for a specific city",
+    "drinks": "coffee, cocktails, tea, fermentation"
+  },
+  "bucket_categories": [
+    "restaurants_places",
+    "equipment",
+    "ingredients"
+  ],
+  "relevant": [
+    "recipes with real quantities and steps",
+    "cooking technique and food science",
+    "meal prep, budgeting and planning",
+    "baking ratios and doughs",
+    "ingredient sourcing and substitutions",
+    "kitchen equipment reviews",
+    "restaurants and food spots worth remembering",
+    "coffee, cocktails and fermentation"
+  ],
+  "not_relevant": [
+    "food shown with no method or place",
+    "restaurant ads with no location",
+    "pure mukbang or eating content",
+    "diet fear-mongering with no evidence"
+  ],
+  "entity_label": "dishes, ingredients, brands, chefs, restaurants and cities named",
+  "artifact_examples": "a full recipe: ingredient list with quantities, then numbered method",
+  "snippet_label": "oven temperatures, hydration ratios, timings, exact seasoning amounts",
+  "tag_examples": [
+    "one-pan-dinners",
+    "sourdough-hydration",
+    "high-protein-veg",
+    "pantry-staples",
+    "cast-iron-care",
+    "fermentation-basics",
+    "30-minute-meals",
+    "cold-brew-ratios"
+  ],
+  "cleanup_hints": [
+    "\"table spoon\" -> \"tbsp\"",
+    "\"tea spoon\" -> \"tsp\"",
+    "\"sour dough\" -> \"sourdough\"",
+    "\"mise en place\" spacing fixes"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "home",
+  "label": "Home, DIY & Plants",
+  "emoji": "🏡",
+  "categories": {
+    "interior_ideas": "layout, decor and rooms worth copying",
+    "diy_projects": "buildable projects with steps",
+    "repairs_maintenance": "fixing and maintaining what you own",
+    "organization": "storage, decluttering, systems",
+    "plants_garden": "indoor plants, garden care, propagation",
+    "products": "furniture, tools and appliances worth buying",
+    "renovation": "bigger works, costs, contractors, planning",
+    "energy_efficiency": "insulation, bills, water, sustainability"
+  },
+  "bucket_categories": [
+    "products",
+    "interior_ideas"
+  ],
+  "relevant": [
+    "interior layout and decor with reasoning",
+    "DIY projects with steps",
+    "repairs and maintenance methods",
+    "storage and organization systems",
+    "plant and garden care",
+    "furniture and tool recommendations",
+    "renovation planning and costs",
+    "energy and water efficiency"
+  ],
+  "not_relevant": [
+    "staged tours with no method",
+    "furniture ads with no context",
+    "before-after clips with no how"
+  ],
+  "entity_label": "products, brands, materials, plant species and tools named",
+  "artifact_examples": "a complete materials list plus numbered build steps, or a care schedule",
+  "snippet_label": "exact dimensions, material grades, watering intervals, paint codes",
+  "tag_examples": [
+    "small-space-layout",
+    "rental-friendly",
+    "propagation-basics",
+    "power-tool-basics",
+    "damp-and-mould",
+    "flat-pack-hacks",
+    "soil-mixes"
+  ],
+  "cleanup_hints": [
+    "\"m d f\" -> \"MDF\"",
+    "\"pot hos\" -> \"pothos\"",
+    "\"ikea\" -> \"IKEA\"",
+    "\"L E D\" -> \"LED\""
+  ]
+}

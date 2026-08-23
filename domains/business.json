@@ -1,0 +1,54 @@
+{
+  "id": "business",
+  "label": "Business, Marketing & Startups",
+  "emoji": "🚀",
+  "categories": {
+    "ideas_validation": "opportunities, validation methods, market reads",
+    "marketing": "acquisition channels, campaigns, positioning, copy",
+    "sales": "outreach, pricing, objection handling, closing",
+    "operations": "hiring, systems, tools, delegation",
+    "case_studies": "how a specific business actually worked",
+    "content_growth": "audience building, distribution, SEO, social",
+    "funding_finance": "raising, unit economics, runway",
+    "tools_stack": "software worth running the business on"
+  },
+  "bucket_categories": [
+    "tools_stack",
+    "case_studies",
+    "ideas_validation"
+  ],
+  "relevant": [
+    "business ideas and validation",
+    "marketing channels and campaigns",
+    "sales, pricing and outreach",
+    "operations, hiring and systems",
+    "case studies with real numbers",
+    "audience growth and distribution",
+    "funding, unit economics and runway",
+    "the software stack behind a business"
+  ],
+  "not_relevant": [
+    "hustle motivation with no mechanism",
+    "course ads with no substance",
+    "revenue screenshots with no method",
+    "generic mindset content"
+  ],
+  "entity_label": "companies, tools, founders, channels and platforms named",
+  "artifact_examples": "a full cold-email template, a complete pricing page structure, an ops checklist",
+  "snippet_label": "exact copy lines, subject lines, prices, conversion numbers, CAC and LTV figures",
+  "tag_examples": [
+    "cold-outreach",
+    "pricing-tiers",
+    "seo-programmatic",
+    "founder-led-sales",
+    "retention-loops",
+    "landing-page-copy",
+    "niche-validation"
+  ],
+  "cleanup_hints": [
+    "\"C A C\" -> \"CAC\"",
+    "\"L T V\" -> \"LTV\"",
+    "\"S a a S\" -> \"SaaS\"",
+    "\"go to market\" -> \"go-to-market\""
+  ]
+}
